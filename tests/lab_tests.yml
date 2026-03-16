@@ -1,0 +1,14 @@
+version: 2
+
+models:
+
+  - name: fct_qa_tests
+    columns:
+
+      - name: label_id
+        tests:
+          - not_null
+
+      - name: sample_number
+        tests:
+          - not_null
